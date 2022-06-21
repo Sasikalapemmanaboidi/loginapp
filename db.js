@@ -1,2 +1,2 @@
 var mongoose = require('mongoose');
-mongoose.connect('mongodb://localhost:27017/march7')
+mongoose.connect('mongodb+srv://sasikala:ycBwMbjmPtjT3Swp@cluster0.pk0tf.mongodb.net/login?retryWrites=true&w=majority')

@@ -6,5 +6,5 @@ const userSchema =new mongoose.Schema({
     phone:Number,
     role:String
 })
-mongoose.model('JanInt',userSchema);
-module.exports = mongoose.model('JanInt')
+mongoose.model('user',userSchema);
+module.exports = mongoose.model('user')
